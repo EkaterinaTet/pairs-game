@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+  max-width: 1000px;
+  padding: 40px 15px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card {
+  height: 240px;
+  padding: 40px;
+  background-color: rgb(97, 81, 81);
+  font-size: 0px; /*чтобы изначально не было числа на карточке*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  color: transparent; /*чтобы изначально не было числа на карточке*/
+  transition: background-color 0.3s;
+}
+.card:hover {
+  background-color: rgb(165, 150, 150);
+}
+.card:active {
+  background-color: rgb(39, 34, 34);
+}
+.open-card {
+  font-size: 35px;
+  color: #fff;
+  background-color: #d84949;
+  cursor: default;
+}
+.open-card:hover {
+  background-color: #d84949;
+}
+.open-card:active {
+  background-color: #d84949;
+}
+
+.success {
+  font-size: 35px;
+  color: #fff;
+  background-color: #67b321;
+  cursor: default;
+}
+.success:hover {
+  background-color: #67b321;
+}
+.success:active {
+  background-color: #67b321;
+}
