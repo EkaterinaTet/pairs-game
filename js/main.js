@@ -93,7 +93,7 @@ function startGame(game, cardsNumber) {
         setTimeout(function () {
           game.innerHTML = ""; //очищаем поле перед след игрой
           alert("ПОБЕДА!");
-          let cardsNumber = +prompt("Введите кол-во пар", 4);
+          let cardsNumber = +prompt("Хотите еще раз? Введите кол-во пар", 4);
           startGame(game, cardsNumber); //рекурсия. вызываем заново
         }, 500);
       }
