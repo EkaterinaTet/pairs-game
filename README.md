@@ -14,3 +14,7 @@
 - When you finish the game, you can start over by selecting the number of pairs again.
 
 ## [Project page on GitHubPages](https://ekaterinatet.github.io/pairs-game/)
+
+<p align="center">
+  <img width="400" height="400" src="https://github.com/EkaterinaTet/pairs-game/blob/main/pairs-game.png">
+</p>
